@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300;400&display=swap');
+
+h1, img{
+ text-align: center;
+}
+
+h1, h2, nav{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+section{
+    background-color: #FFF7F3; /* F0EDFF*/ E1E6E6
+    margin: 1%;
+    flex: 1 1 30%; /* flex-grow: 1; flex-shrink: 1; flex-basis: 31%;*/
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    justify-content: space-between;
+}
