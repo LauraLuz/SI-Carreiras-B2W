@@ -14,7 +14,7 @@ body{
 
 
 section{
-    background-color: #FFF7F3; /* F0EDFF*/ E1E6E6
+    background-color: #FFF7F3; /* E1E6E6 F0EDFF*/ 
     margin: 1%;
     flex: 1 1 30%; /* flex-grow: 1; flex-shrink: 1; flex-basis: 31%;*/
 }
