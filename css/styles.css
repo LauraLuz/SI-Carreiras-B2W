@@ -10,6 +10,8 @@ h1, h2, nav{
 
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -24,4 +26,26 @@ nav ul{
     list-style-type: none;
     width: 50%;
     justify-content: space-between;
+}
+/* Comeco codigo do Paulo */
+nav{
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    background-color: rgba(0, 0, 0, .85);
+    backdrop-filter: saturate(120%) blur(10px) ;
+}
+
+nav div{
+    text-align: center;
+}
+nav div a{
+    color: #FFF7F3;
+    padding: 3%;
+}
+
+.container{
+    background-color: #212529;
+    width: 90%;
 }
