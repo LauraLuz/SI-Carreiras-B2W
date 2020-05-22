@@ -34,7 +34,7 @@ nav{
     top: 0;
     z-index: 1020;
     background-color: rgba(0, 0, 0, .85);
-    backdrop-filter: saturate(120%) blur(10px) ;
+    backdrop-filter: blur(15px) ;
 }
 
 nav div{
@@ -46,6 +46,10 @@ nav div a{
 }
 
 .container{
-    background-color: #212529;
-    width: 90%;
+    background-color: #9b9b9b;
+    box-sizing: border-box;
+    width: 100%;
+    align-content: center;
+    padding-left: 15px;
+    margin: auto;
 }
