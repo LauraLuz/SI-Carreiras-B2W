@@ -27,14 +27,15 @@ nav ul{
     width: 50%;
     justify-content: space-between;
 }
-/* Comeco codigo do Paulo */
+/* Menu de Navegação - codigo paulo */
 nav{
     display: block;
     position: sticky;
     top: 0;
     z-index: 1020;
     background-color: rgba(0, 0, 0, .85);
-    backdrop-filter: blur(15px) ;
+    backdrop-filter: saturate(120%) blur(10px);
+    height: 40px;
 }
 
 nav div{
@@ -53,3 +54,57 @@ nav div a{
     padding-left: 15px;
     margin: auto;
 }
+/* Fim Menu */
+
+
+/* Formulário */
+*{
+    box-sizing: border-box;
+  }
+  .form{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF7F3;
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  .form h1{
+    font-size: 34px;
+    color: #1EA789 ;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .form input[type="text"],
+  .form input[type="email"],
+  .form textarea{
+    font-size: 16px;
+    width: 100%;
+    margin: 0 0 15px;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #FFF7F3;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+  }
+  .form textarea{
+    height: 150px;
+    resize: none;
+  }
+  .form .submit input{
+    color: #141011;
+    margin: 10px 0 auto;
+    cursor: pointer;
+    width: 100px;
+    background-color: rgb(255, 206, 182);
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .form .submit input:hover{
+    background-color: #FFF7F3;
+  }
+  .form .voltar{
+    margin-top: 10px;
+  }
+  /* Fim Formulario */
+  

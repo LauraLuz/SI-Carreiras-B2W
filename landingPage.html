@@ -13,7 +13,7 @@
         <div class="header nav-bar">
             <a href="#problematica">Problemática</a>
             <a href="#solucao">Solução</a>
-            <a href="parceria">Parceiros</a>
+            <a href="#parceria">Parceiros</a>
             <a href="#formulario">Formulário</a>
             <a href="#equipe">Equipe</a>
         </div>
@@ -31,7 +31,7 @@
     <header>
         <hgroup>
             <h1>CHALLENGE</h1>
-            <img src="challenge.jpeg" alt="Parceiros Challenge Logo">
+            <img src="img/challenge.jpeg" alt="Parceiros Challenge Logo">
         </hgroup>
     </header>
 
@@ -55,12 +55,19 @@
                 sed.
                 Nunc et pellentesque turpis</p>
         </section>
-        <section id="formulario">
+        <section id="formulario" class="form">
             <h2>FORMULÁRIO</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et maximus mi, nec sollicitudin enim.
-                . Nulla interdum elit metus, sit amet porta sem egestas
-                sed.
-                Nunc et pellentesque turpis</p>
+            <!-- Container Formulario -->
+            <form action="Contato" method="POST">
+                <input placeholder="Nome" type="text" name="nome" class="user">
+                <input placeholder="Email" type="email" name="email" class="email">
+                <input placeholder="Assunto" type="text" name="assunto" class="subject">
+                <textarea placeholder="Escreva aqui sua mensagem" name="msg"></textarea>
+                <div class="submit">
+                    <input type="submit" name="submit" id="submit">
+                </div>
+            </form>
+            <!-- FIM Formulario Container -->
         </section>
         <section id="equipe">
             <h2>EQUIPE</h2>
