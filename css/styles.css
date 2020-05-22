@@ -49,3 +49,57 @@ nav div a{
     background-color: #212529;
     width: 90%;
 }
+
+
+
+/* Formulario */
+*{
+    box-sizing: border-box;
+  }
+  .form{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF7F3;
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  .form h1{
+    font-size: 34px;
+    color: #1EA789 ;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .form input[type="text"],
+  .form input[type="email"],
+  .form textarea{
+    font-size: 16px;
+    width: 100%;
+    margin: 0 0 15px;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #FFF7F3;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+  }
+  .form textarea{
+    height: 150px;
+    resize: none;
+  }
+  .form .submit input{
+    color: #141011;
+    margin: 10px 0 auto;
+    cursor: pointer;
+    width: 100px;
+    background-color: rgb(255, 206, 182);
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .form .submit input:hover{
+    background-color: #FFF7F3;
+  }
+  .form .voltar{
+    margin-top: 10px;
+  }
+  /* Fim Formulario */
+  
