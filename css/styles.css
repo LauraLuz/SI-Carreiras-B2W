@@ -27,14 +27,15 @@ nav ul{
     width: 50%;
     justify-content: space-between;
 }
-/* Comeco codigo do Paulo */
+/* Menu de Navegação - codigo paulo */
 nav{
     display: block;
     position: sticky;
     top: 0;
     z-index: 1020;
     background-color: rgba(0, 0, 0, .85);
-    backdrop-filter: saturate(120%) blur(10px) ;
+    backdrop-filter: saturate(120%) blur(10px);
+    height: 40px;
 }
 
 nav div{
@@ -49,10 +50,10 @@ nav div a{
     background-color: #212529;
     width: 90%;
 }
+/* Fim Menu */
 
 
-
-/* Formulario */
+/* Formulário */
 *{
     box-sizing: border-box;
   }
