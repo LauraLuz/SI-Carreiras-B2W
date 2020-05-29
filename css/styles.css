@@ -1,61 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300;400&display=swap');
 
-h1, img{
- text-align: center;
-}
-
 h1, h2, nav{
-    font-family: 'Poppins', sans-serif;
-}
-
-body{
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 
-section{
-    background-color: #FFF7F3; /* E1E6E6 F0EDFF*/ 
-    margin: 1%;
-    flex: 1 1 30%; /* flex-grow: 1; flex-shrink: 1; flex-basis: 31%;*/
-}
+/* Menu de Navegação */
 
-nav ul{
-    display: flex;
-    list-style-type: none;
-    width: 50%;
-    justify-content: space-between;
-}
-/* Menu de Navegação - codigo paulo */
-nav{
-    display: block;
-    position: sticky;
-    top: 0;
-    z-index: 1020;
+h1{
+  color: #FFF7F3;
+  font-size: 1.5em;
+ }
+header{
     background-color: rgba(0, 0, 0, .85);
     backdrop-filter: saturate(120%) blur(10px);
-    height: 40px;
-}
-
-nav div{
-    text-align: center;
-}
-nav div a{
-    color: #FFF7F3;
-    padding: 3%;
-}
-
-.container{
-    background-color: #9b9b9b;
-    box-sizing: border-box;
+    display: flex;
     width: 100%;
-    align-content: center;
-    padding-left: 15px;
-    margin: auto;
+    height: 70px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 10px 18px #888888; /*sombra menu*/
 }
+header ul{
+  display: flex;
+  list-style-type: none;
+  width: 40%;
+  justify-content: space-around;
+}
+header ul li a{
+  color: #FFF7F3;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+/*
+li{
+  margin: 0%;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  color: #FFF7F3;
+}
+.item-nav{
+  padding: .5rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+construir header
+.menu-bar{
+  
+}*/
+
 /* Fim Menu */
 
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+section{
+  background-color: #FFF7F3; /* E1E6E6 F0EDFF*/ 
+  margin: 1%;
+  flex: 1 1 30%; /* flex-grow: 1; flex-shrink: 1; flex-basis: 31%;*/
+}
 
 /* Formulário */
 *{
