@@ -46,8 +46,15 @@ header ul li a{
   font-size: 1.1em;
   cursor: pointer;
 }
-
 /* Fim Menu */
+
+main{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 
 body{
   font-family: 'Roboto', sans-serif;
