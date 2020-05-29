@@ -21,7 +21,11 @@ header{
     justify-content: space-between;
     align-items: center;
     box-shadow: 5px 10px 18px #888888; /*sombra menu*/
+    position: -webkit-sticky;
+    position: sticky; /* menu fixo no topo*/
+    top: 0;
 }
+
 header ul{
   display: flex;
   list-style-type: none;
