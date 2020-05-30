@@ -39,7 +39,7 @@ header ul{
   justify-content: space-around;
 }
 header ul li a{
-  color: #FFF7F3;
+  color: #e6e6e6;
   text-decoration: none;
   display: inline-block;
   padding: 5px;
@@ -50,7 +50,8 @@ header ul li a{
 
 main{
   width: 60%;
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin-left: auto;
   margin-right: auto;
 
@@ -62,18 +63,44 @@ body{
   padding: 0;
 }
 section{
-  background-color: #FFF7F3; /* E1E6E6 F0EDFF*/ 
+  background-color: #e6e6e6; /* E1E6E6 F0EDFF*/ 
   margin: 1%;
+  padding: 3%;
   flex: 1 1 30%; /* flex-grow: 1; flex-shrink: 1; flex-basis: 31%;*/
 }
 
+/* Container Imagem e Descrição */
+h2{
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.poster{
+top: 0%;
+left: 2%;
+}
+.poster-img{
+  width: 25vw;
+  height: 25vw;
+  object-fit: contain;
+}
+p .texto{
+top: 0%;
+left: 2%;
+right: 0%;
+}
+
 /* Formulário */
+
 *{
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
   .form{
     font-family: 'Roboto', sans-serif;
-    background-color: #FFF7F3;
+    background-color: #e6e6e6;
     padding: 20px;
     margin: 20px auto;
   }
@@ -87,14 +114,12 @@ section{
   .form input[type="text"],
   .form input[type="email"],
   .form textarea{
-    font-size: 16px;
+    font-size: 1em;
     width: 100%;
     margin: 0 0 15px;
     height: 40px;
     padding: 10px 10px 10px 10px;
-    border: 1px solid #FFF7F3;
-    background-repeat: no-repeat;
-    background-position: 5px center;
+    border: 1px solid #e6e6e6;
   }
   .form textarea{
     height: 150px;
@@ -102,19 +127,16 @@ section{
   }
   .form .submit input{
     color: #141011;
-    margin: 10px 0 auto;
     cursor: pointer;
     width: 100px;
-    background-color: rgb(255, 206, 182);
+    background-color: #e6e6e6;
     padding: 10px;
-    font-size: 18px;
+    font-size: 1.2em;
     text-decoration: none;
   }
   .form .submit input:hover{
-    background-color: #FFF7F3;
+    background-color: #9c9a9a;
   }
-  .form .voltar{
-    margin-top: 10px;
-  }
+
   /* Fim Formulario */
   
