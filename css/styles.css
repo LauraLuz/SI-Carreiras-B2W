@@ -52,7 +52,7 @@ header li{
 /* Fim Menu */
 
 main{
-  width: 60%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   margin-left: auto;
@@ -106,7 +106,6 @@ right: 0%;
   font-family: 'Roboto', sans-serif;
   background-color: #e6e6e6;
   padding: 20px;
-  margin: 20px auto;
 }
 .form h1{
   font-size: 34px;
