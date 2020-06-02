@@ -7,9 +7,10 @@ nav{
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 nav img{
-  width: 25vw;
+  width: 75%;
   padding: 15px;
 }
 
