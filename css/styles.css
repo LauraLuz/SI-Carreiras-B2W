@@ -98,45 +98,49 @@ right: 0%;
 *{
   box-sizing: border-box;
 }
-  .form{
-    font-family: 'Roboto', sans-serif;
-    background-color: #e6e6e6;
-    padding: 20px;
-    margin: 20px auto;
-  }
-
-  .form h1{
-    font-size: 34px;
-    color: #1EA789 ;
-    padding-bottom: 20px;
-    text-align: center;
-  }
-  .form input[type="text"],
-  .form input[type="email"],
-  .form textarea{
-    font-size: 1em;
-    width: 100%;
-    margin: 0 0 15px;
-    height: 40px;
-    padding: 10px 10px 10px 10px;
-    border: 1px solid #e6e6e6;
-  }
-  .form textarea{
-    height: 150px;
-    resize: none;
-  }
-  .form .submit input{
-    color: #141011;
-    cursor: pointer;
-    width: 100px;
-    background-color: #e6e6e6;
-    padding: 10px;
-    font-size: 1.2em;
-    text-decoration: none;
-  }
-  .form .submit input:hover{
-    background-color: #9c9a9a;
-  }
-
-  /* Fim Formulario */
+.form{
+  font-family: 'Roboto', sans-serif;
+  background-color: #e6e6e6;
+  padding: 20px;
+  margin: 20px auto;
+}
+.form h1{
+  font-size: 34px;
+  color: #1EA789 ;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.form input[type="text"],
+.form input[type="email"],
+.form textarea{
+  font-size: 1em;
+  width: 100%;
+  margin: 0 0 15px;
+  height: 40px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #e6e6e6;
+}
+.form textarea{
+  height: 150px;
+  resize: none;
+}
+.form .submit input{
+  color: #141011;
+  cursor: pointer;
+  width: 100px;
+  background-color: #e6e6e6;
+  padding: 10px;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+.form .submit input:hover{
+  background-color: #9c9a9a;
+}
+/* Fim Formulario */
   
+@media screen and (max-width: 800px){
+  
+}
+@media screen and (max-width: 500px){
+
+}
