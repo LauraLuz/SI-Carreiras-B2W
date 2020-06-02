@@ -3,6 +3,15 @@
 h1, h2, nav{
   font-family: 'Poppins', sans-serif;
 }
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav img{
+  width: 25vw;
+  padding: 15px;
+}
 
 .logo{
   opacity: 0.9;
