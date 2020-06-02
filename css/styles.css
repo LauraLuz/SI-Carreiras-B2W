@@ -22,7 +22,7 @@ header{
     backdrop-filter: saturate(120%) blur(10px);
     display: flex;
     width: 100%;
-    height: 70px;
+    /* height: 70px; */
     padding: 10px;
     justify-content: space-between;
     align-items: center;
@@ -86,6 +86,7 @@ left: 2%;
   width: 25vw;
   height: 25vw;
   object-fit: contain;
+  padding-right: 1vw;
 }
 p .texto{
 top: 0%;
@@ -139,8 +140,13 @@ right: 0%;
 /* Fim Formulario */
   
 @media screen and (max-width: 800px){
-  
+  main{
+    width: 100%;
+  }
 }
 @media screen and (max-width: 500px){
-
+  header ul{
+    flex-direction: column;
+    justify-content: center;
+  }
 }
