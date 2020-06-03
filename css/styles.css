@@ -12,13 +12,6 @@ nav{
 nav img{
   width: 75%;
 }
-/*
-.logo{
-  opacity: 0.9;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}*/
 
 /* Menu de Navegação */
 h1{
@@ -64,7 +57,6 @@ main{
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-
 }
 body{
   font-family: 'Roboto', sans-serif;
@@ -78,44 +70,38 @@ section{
   flex: 1 1 30%; /* flex-grow: 1; flex-shrink: 1; flex-basis: 31%;*/
 }
 
-/* Container Imagem e Descrição */
+/* Divs e Descrição */
 h2{
   margin: 0;
 }
-.container {
-  /*background-image: url(/Users/lauraluz/Documents/GitHub/SI-Carreiras-B2W/img/problematica-unsplash.jpg);*/
-  background-color: aqua;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 2em;
-}
-@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-  .painel-blur {
-   -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+.painel-blur {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 2em;
   }
+#problematica{
+  background-color: #F5A333;
+  padding: 2em;
+}
+#solucao{
+  background-color: #7F3A8F;
+  padding: 2em;
+}
+#parceria{
+  background-color: #13EAC3;
+  padding: 2em;
+}
+#formulario{
+  background-color: #80C04E;
+  padding: 2em;
+}
+#equipe{
+  background-color: #F11864 ;
+  padding: 2em;
 }
 p{
   margin-bottom: 0;
   text-align: justify;
 }
-
-/* .poster{
-top: 0%;
-left: 2%;
-}
-.poster-img{
-  width: 25vw;
-  height: 25vw;
-  object-fit: contain;
-  padding-right: 1vw;
-} */
 
 /* Formulário */
 *{
@@ -158,8 +144,8 @@ left: 2%;
 .form .submit input:hover{
   background-color: #9c9a9a;
 }
-/* Fim Formulario */
-  
+
+/* Media Query */
 @media screen and (max-width: 800px){
   main{
     width: 100%;
@@ -178,8 +164,7 @@ left: 2%;
   }
 }
 
-
-/* footer */
+/* Footer */
 footer{
   width: 100%;
   height: 100px;
@@ -190,7 +175,6 @@ footer{
   align-items: center;
   justify-content: space-between;
 }
-
 .fa {
   color: #FFF7F3;
   padding: 20px;
@@ -199,10 +183,16 @@ footer{
   text-align: center;
   text-decoration: none;
 }
-
-/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
 
 
+/* Cores 
+fiap: 7E1335
+b2w: 13EAC3
+azul: #0390D3
+roxo: #7F3A8F
+laranja: #F5A333
+verde: #80C04E
+*/
