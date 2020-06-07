@@ -86,7 +86,7 @@ body{
 }
 section{
   background-color: #e6e6e6;
-  border-radius: 30px;
+  border-radius: 10px;
   margin: 1%;
   padding: 3%;
   flex: 1 1 30%; /* flex-grow: 1; flex-shrink: 1; flex-basis: 31%;*/
@@ -101,28 +101,30 @@ p{
   text-align: justify;
 }
 .painel-blur {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 2em;
-  }
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1.3em;
+}
 #problematica{
   background-color: #F5A333;
-  padding: 2em;
+  padding: 1.3em;
 }
 #solucao{
   background-color: #7F3A8F;
-  padding: 2em;
+  padding: 1.3em;
+  display: flex;
+  flex-direction: row;
 }
 #parceria{
   background-color: #13EAC3;
-  padding: 2em;
+  padding: 1.3em;
 }
 #formulario{
   background-color: #80C04E;
-  padding: 2em;
+  padding: 1.3em;
 }
 #equipe{
   background-color: #F11864 ;
-  padding: 2em;
+  padding: 1.3em;
 }
 
 /* Formulário */
@@ -161,7 +163,6 @@ p{
 }
 .form .submit input{
   cursor: pointer;
-  
   border: none;
   width: 100px;
   background-color: #e6e6e6;
@@ -251,17 +252,15 @@ footer{
   height: 200px;
   padding: 0 20px;
   background-color: rgba(0, 0, 0, .85);
-  
+  backdrop-filter: saturate(120%) blur(10px);
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .rodape h2, small{ 
   color: #FFF7F3;
   text-decoration: none;
 }
-
 a:-webkit-any-link {
   color: #FFF7F3;
   cursor: pointer;
