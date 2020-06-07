@@ -14,6 +14,21 @@ nav img{
   width: 75%;
 }
 
+#problematica-link, 
+#solucao-link,
+#parceria-link, 
+#formulario-link,
+#equipe-link,
+#fim{
+  height: 100px;
+}
+.itens{
+  height: 50px;
+  width: 50px;
+  position: relative;
+  left: 47%;
+  top: 30%;
+}
 /* Menu de Navegação */
 h1{
   color: #FFF7F3;
