@@ -13,7 +13,6 @@ nav{
 nav img{
   width: 75%;
 }
-
 #problematica-link, 
 #solucao-link,
 #parceria-link, 
@@ -29,6 +28,7 @@ nav img{
   left: 47%;
   top: 30%;
 }
+
 /* Menu de Navegação */
 h1{
   color: #FFF7F3;
@@ -148,6 +148,7 @@ p{
   background-position: 5px center;
   border: .5px solid #e6e6e6;
   background-repeat: no-repeat;
+  border-radius: 5px;
 }
 .form textarea{
   font-family: 'Poppins', sans-serif;
@@ -169,6 +170,7 @@ p{
   padding: 10px;
   font-size: 1.2em;
   transition-duration: 0.4s;
+  border-radius: 10px;
 }
 #submit:hover{
   background-color: #80C04E;
@@ -194,7 +196,6 @@ p{
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  
 }
 .img-equipe{
   height: 90px;
@@ -202,7 +203,6 @@ p{
   border-radius: 50px;
   border: 5px solid #F11864;
 }
-
 h3{
   text-transform: uppercase;
   font-weight: bolder;
